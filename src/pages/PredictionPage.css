@@ -1,0 +1,39 @@
+.prediction-page {
+    padding-top: 140px;
+    padding-bottom: var(--space-2xl);
+    min-height: 80vh;
+}
+
+.container-narrow {
+    max-width: 900px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+}
+
+.page-header h1 span {
+    color: var(--primary);
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.error-banner {
+    padding: var(--space-md);
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid var(--danger);
+    color: var(--danger);
+    border-radius: var(--radius-md);
+    text-align: center;
+    margin-bottom: var(--space-lg);
+    font-weight: 500;
+}
